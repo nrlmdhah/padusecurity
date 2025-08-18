@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | PADU SECURITY AND SERVICES SDN. BHD.</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <!-- Logo Section -->
+      <div class="logo">
+      <img src="img/logo.png" alt="Logo" class="logo-img" />
+      <a href="index.html" class="logo-text">
+      <span class="padu">PADU</span><span class="security">SECURITY</span>
+    </a>
+    </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html"class="active">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+ <main>
+  <section class="page-header">
+    <div class="container">
+      <h1>About Us</h1>
+    <p>We deliver customized, high-quality security solutions rooted in professionalism and integrity.</p>
+  </section>
+
+
+    <section class="who-we-are with-separator">
+      <div class="container">
+        <img src="img/logo.png" alt="About Us Image" class="about-image">
+    <h3>Who We Are</h3>
+    <p>Padu Security And Services Sdn. Bhd. is a Bumiputera-owned company based in Meru, Ipoh, incorporated on 3 May 2023. 
+      Licensed by the Ministry of Home Affairs (KDN) and registered with the Ministry of Finance, the company provides security services across Malaysia. </p>
+    <p>With a strong focus on understanding client needs, Padu offers tailored, high-quality security solutions to protect people, assets, and information. 
+    The company is committed to professionalism, customer service, and operational excellence, driven by well-trained and ethical security personnel. </p>
+
+</p>
+    <ul>
+      <li><strong>Our Mandate:</strong> To provide secure and ethical protection solutions.</li>
+      <li><strong>Our Purpose:</strong> To safeguard people, assets, and data through excellence.</li>
+    </ul>
+  </section>
+
+<section class="our-values with-separator">
+  <div class="container text-center">
+    <div class="value-grid">
+      <div class="value-card">
+        <div class="big-letter">P</div>
+        <div>Power</div>
+      </div>
+      <div class="value-card">
+        <div class="big-letter">A</div>
+        <div>Accountability</div>
+      </div>
+      <div class="value-card">
+        <div class="big-letter">D</div>
+        <div>Discipline</div>
+      </div>
+      <div class="value-card">
+        <div class="big-letter">U</div>
+        <div>Unity</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="mission-vision">
+    <div class="container flex-grid">
+      <div class="box">
+        <h4>Mission</h4>
+        <p>Strengthening skills and quality in the field of service.</p>
+      </div>
+      <div class="box">
+        <h4>Vision</h4>
+        <p>To build a company dedicated to service excellence while maintaining high standards.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 PADU SECURITY AND SERVICES SDN. BHD. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target); // Remove this line if you want the animation to trigger every time
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
+</script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

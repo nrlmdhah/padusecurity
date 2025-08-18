@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | PADU SECURITY AND SERVICES SDN. BHD.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="container">
+      <!-- Logo Section -->
+      <div class="logo">
+      <img src="img/logo.png" alt="Logo" class="logo-img" />
+      <a href="index.html" class="logo-text">
+      <span class="padu">PADU</span><span class="security">SECURITY</span>
+    </a>
+    </div>
+            <ul class="nav-links">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html"class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Comprehensive Security Services</h1>
+      <p>We offer dependable, customized protection solutions to meet your unique security needs across Malaysia.</p>
+    </div>
+  </section>
+
+  <!-- Our Services -->
+  <section class="section-padding">
+    <div class="container">
+
+      <div class="service-item reveal">
+        <div class="service-desc">
+          <h3>Provision of Trained Security Guards</h3>
+          <p>We supply uniformed security personnel trained to handle safety and emergency situations. Our guards are firm, ethical, respectful, and courteous — ready to secure your premises with discipline and professionalism.</p>
+        </div>
+      </div>
+
+      <div class="service-item reveal">
+        <div class="service-desc">
+          <h3>Custom Security Planning</h3>
+          <p>We assess your industry-specific risks and design tailor-made security solutions for maximum protection, ensuring the strategy fits your operational environment perfectly.</p>
+        </div>
+      </div>
+
+      <div class="service-item reveal">
+        <div class="service-desc">
+          <h3>Asset & Information Protection</h3>
+          <p>From physical assets to digital information, we implement comprehensive protection strategies including surveillance, access control, and secure monitoring setups as needed.</p>
+        </div>
+      </div>
+
+      <div class="service-item reveal">
+        <div class="service-desc">
+          <h3>Workforce & Staff Safety</h3>
+          <p>On-site security guards provide a visible presence to ensure your employees' safety through controlled access points, visitor screening, and regular patrols.</p>
+        </div>
+      </div>
+
+      <div class="service-item reveal">
+        <div class="service-desc">
+          <h3>Professionalism & Service Consistency</h3>
+          <p>Our team follows strict recruitment and training procedures, ensuring that you receive consistently high-quality and reliable service at all times.</p>
+        </div>
+      </div>
+
+      <div class="service-item reveal">
+        <div class="service-desc">
+          <h3>Regulatory Compliance</h3>
+          <p>We are fully licensed by the Ministry of Home Affairs (KDN) and registered with the Ministry of Finance (MOF), qualifying us to serve both government and corporate clients across Malaysia.</p>
+        </div>
+      </div>
+
+     <!-- Core Commitments -->
+<section class="section-padding core-commitments">
+  <div class="container">
+    <div class="commitment-heading text-center">
+  <h2>Our Core Commitments</h2>
+  <p class="tagline">“Service Through Experience”</p>
+    </div>
+
+    <div class="commitment-wrapper">
+      <div class="commitment-box reveal">
+        <h4>CUSTOMER SATISFACTION</h4>
+        <p>Hear from customers and we try to increase the value of services to be more effective.</p>
+      </div>
+
+      <div class="commitment-box reveal">
+        <h4>COMMITMENT</h4>
+        <p>Dedicated to the security services provided as well as striving to achieve good quality of work.</p>
+      </div>
+
+      <div class="commitment-box reveal">
+        <h4>LEADING THROUGH EXPERIENCE</h4>
+        <p>Committed to leadership and responsibility wherever we operate.</p>
+
+
+      </div>
+    </div>
+
+    </div>
+  </section>
+</main>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 PADU SECURITY AND SERVICES SDN. BHD. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+  function revealOnScroll() {
+    const reveals = document.querySelectorAll('.service-item');
+    for (let i = 0; i < reveals.length; i++) {
+      const windowHeight = window.innerHeight;
+      const elementTop = reveals[i].getBoundingClientRect().top;
+      const elementVisible = 100;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add('visible');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+</script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
